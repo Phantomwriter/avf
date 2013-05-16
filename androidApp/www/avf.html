@@ -1,0 +1,110 @@
+<!doctype html>  
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>AVF Landing Page</title>
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<meta http-equiv="cleartype" content="on">-->
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.3.1.css" type="text/css"" />
+	<link rel="stylesheet" href="css/avf.css"/>	
+	<script src="mainjs/modernizr.custom.min.js"></script>
+	
+<!--
+
+Howard Livingston
+AVF 
+Week One 
+with Jen Mccarrick
+
+////////////////////////////////////////Week One Notes///////////////////////////////////////////////////////
+This week I:
+
+Have files set-up for the app
+Established Git repo
+Downloaded PhoneGap
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+-->
+</head>
+<body>
+
+<!--AVF Landing Page-->
+
+<div data-role="page" id="home" class="indexBackground">
+	<div data-role="header" data-position="fixed">
+		<h1>Hit the Deck App</h1>
+	</div>
+	
+		<div data-role="content">
+			<p>Howie Livingston</p>
+			<p>AVF13/05</p>
+			<p>App Home Page</p>
+		</div>
+			<section>
+				<ul data-role="listview">
+            		<li>
+              			<a href="#topics" data-ajax="false">
+                			
+                  				Weekly Research Topics
+                			
+              			</a>
+            		</li>
+            		<li>
+              			<a href="#native" data-ajax="false">
+                			
+                  				Native Components
+                			
+              			</a>
+            		</li>
+            		<li>
+              			<a href="#api" data-ajax="false">
+                			
+                  				API Resources
+                			
+              			</a>
+            		</li>
+          		</ul>
+        	</section>
+    <div data-role="footer" data-position="fixed">
+    </div>
+    </div>
+    
+    <!--Weekly Topics page-->
+    <div data-role="page" id="topics" class="indexBackground">
+	<div data-role="header" data-position="fixed">
+		<h1>Weekly Topics Page</h1>
+	</div>
+	<div data-role="footer" data-position="fixed">
+    </div>
+    </div>
+    
+    <!--Native Components Page-->
+    <div data-role="page" id="native">
+	<div data-role="header" data-position="fixed">
+		<h1>Native Components Page</h1>
+	</div>
+	<div data-role="footer" data-position="fixed">
+    </div>
+    </div>
+    <!--API Page-->
+    <div data-role="page" id="api">
+	<div data-role="header" data-position="fixed">
+		<h1>API Page</h1>
+	</div>
+	<div data-role="footer" data-position="fixed">
+    </div>
+    </div>
+    
+    
+
+
+<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script type="text/javascript" src="cordova-2.7.0.js"></script>
+	<script type="text/javascript" src="mainjs/avf.js"></script>
+</body>
+</html>
